@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":[],"sources":["../../../../src/db/models/index.js"],"sourcesContent":["import Acronym from \"./Acronym\";\r\n\r\nexport {Acronym};"],"mappings":";;;;;;;;;;;;AAAA"}

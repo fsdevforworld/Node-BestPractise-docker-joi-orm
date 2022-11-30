@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled binary addons
+build/release
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Build files
+dist/
+
+# Environment files
+.env

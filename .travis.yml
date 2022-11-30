@@ -1,0 +1,8 @@
+deploy:
+  api_key:
+    secure: 'secret'
+script:
+  - 'docker-compose run server npm test'
+  - 'docker-compose run server npm run build'
+services:
+  - docker

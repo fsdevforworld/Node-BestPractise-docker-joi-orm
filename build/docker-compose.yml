@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    volumes:
+      - ./:/app
+    volumes:
+      - "./:/app"
+      - "exclude:/app/node_modules" # prevent host from overwriting node_modules
+    command: "npm start"
+
+volumes:
+  exclude:

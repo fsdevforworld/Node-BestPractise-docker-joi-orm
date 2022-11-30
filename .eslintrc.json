@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:node/recommended-module"
+  ],
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "error"
+  }
+}
